@@ -1,0 +1,72 @@
+
+
+header{
+  background-image: url('https://raw.githubusercontent.com/leivanoe1011/Bridgette_Vega_Realtor/master/assets/img/header_home.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 60vw;
+}
+
+#backgroundImage {
+  padding-top: 3%;
+  padding-bottom: 97%;
+  background-image: url('https://jennp1987.github.io/644_final/images/pizza_bkground.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+
+}
+
+.section{
+  /* View Width */
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.tabs .indicator {
+  background-color: #1a237e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background: transparent;
+}
+
+nav{
+  position: fixed;
+  padding:0px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+
+nav.scroll_transition{
+  background: rgba(255, 255, 255, 0.8);
+  height: 80px;
+  padding: 10px 50px;
+}
+
+
+.sidenav{
+  position: fixed;
+}
+
+.sidenav-overlay{
+  background-color: transparent;
+}
+
+
+@media screen and (max-width: 670px){
+  header{
+    min-height: 500px;
+  }
+
+  .brand-logo{
+    font-size: 20px !important;
+  }
+}
+
+.parallax-container{
+  z-index: 2;
+}
