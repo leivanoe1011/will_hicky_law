@@ -14,6 +14,11 @@
    $(".tooltipped").tooltip();
    $(".scrollspy").scrollSpy();
    $('.slider').slider();
+   $('.carousel').carousel();
+   $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
 
 
    $(window).on("scroll",function(){
