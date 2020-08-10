@@ -1,5 +1,9 @@
 
 
+ $("#advanceReading").on("click", function () {
+  $(".filter").toggle()
+});
+
 
  $(document).ready(function(){
 
@@ -20,6 +24,9 @@
     indicators: true
   });
 
+
+ 
+  $(".filter").hide();
 
    $(window).on("scroll",function(){
     if ($(window).scrollTop()){

@@ -70,3 +70,19 @@ nav.scroll_transition{
 .parallax-container{
   z-index: 2;
 }
+
+.card-image-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit:cover !important;
+}
+
+
+
+
+
+
+
+
+
+
